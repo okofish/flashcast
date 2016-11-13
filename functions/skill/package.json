@@ -1,0 +1,16 @@
+{
+  "name": "alexa-accuweather-skill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesse Friedman <jesse@jesse.ws> (https://jesse.ws/)",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.78.0",
+    "request-promise": "^4.1.1",
+    "uuid": "^2.0.3"
+  }
+}

@@ -1,0 +1,9 @@
+
+{
+  "name": "alexa-accuweather",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::694283863869:role/alexa-accuweather_lambda_function",
+  "environment": {}
+}
