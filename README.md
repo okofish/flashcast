@@ -2,6 +2,9 @@
 
 FlashCast is an API powering a suite of Amazon Alexa Flash Briefing skills corresponding to AccuWeather's [Daily Indices](http://developer.accuweather.com/list-available-daily-indices). Instead of a generic high/low and precipitation forecast, FlashCast provides a highly customizable daily briefing tailored just for you.
 
+![Screenshot of FlashCast feeds, some enabled and some disabled](http://f.jesse.ws/flashcast-screenshot.png)
+*Get the forecasts that matter to you.*
+
 ## How to use it
 
 The Lambda function in this repository is managed with the [Apex](https://github.com/apex/apex) tool - you should install the tool if you want to deploy the function on your own account. Make sure to customize the `functions/skill/config-sample.json` file with your location and API key, and rename it to `config.json`.
